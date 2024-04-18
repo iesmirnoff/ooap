@@ -1,4 +1,4 @@
-
+package lesson1
 
 abstract class BoundedStack<T>(private val maxCount: Int = 32) /* Постусловие: создан новый пустой стек, размер которого ограничен значением maxCount */ {
 
